@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: -200px;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo{
+  display: flex;
+  margin-top: -100px;
+}
+
+.intro{
+  margin-top: -100px;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(46, 114, 202);
+}
+
+.profession{
+  color: red;
+}
+
+input{
+  padding: 10px;
+  margin-top: 30px;
+  width: 300px;
+  font-weight: 400;
+  border-radius: 8px;
+  height: 45px;
+}
+
+button{
+    margin-top: 20px;
+    height: 45px;
+    width: 110px;
+    background-color: rgb(46, 114, 202);
+    border: 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+}
+
+button:hover{
+  background-color: white;
+  color: rgb(46, 114, 202);
+  border: 1px solid rgb(46, 114, 202);
+
+}
+
+.clipboard{
+  margin-top: 20px;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.clipboard p{
+  font-size: 18px;
+  font-weight: 800;
+}
