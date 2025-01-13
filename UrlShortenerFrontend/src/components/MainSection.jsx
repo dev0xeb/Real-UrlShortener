@@ -53,7 +53,7 @@ const MainSection = () => {
   return (
     <div className="main-section">
         <img src={logo} alt=""  className='mb-4'/>
-        <p className='intro'>A very Useful for Tool <u className='profession'>{currentProfession}</u></p>
+        <p className='intro'>A very Useful Tool for <u className='profession'>{currentProfession}</u></p>
         <input 
             type="text" 
             placeholder='Input link here'
